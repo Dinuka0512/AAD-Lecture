@@ -9,7 +9,26 @@
 <body>
     <h1 class="m-4 mb-0">AJAX Example</h1>
     <p class="mt-1 ms-4 me-4" id="paragraph"></p>
+    <p class="mt-1 ms-4 me-4">
+        Frist Name : <span id="fname"></span> <br> 
+        Last Name : <span id="lname"></span> <br>
+        Age : <span id="age"></span>
+    </p>
+
+    <table id="table" class="table table-dark table-striped me-4 ms-4">
+        <tr>
+            <th>Frist Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+
     <button class="ms-4 btn btn-success" onclick= btnClick()>Send an AJAX Request</button>
+    <script src="jqueree.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
